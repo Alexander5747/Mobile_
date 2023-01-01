@@ -3,11 +3,10 @@
     padding: 0;
     font-size: 16px;
 }
-/* .wraper{
-    margin: 0 auto;
-    min-width: 270px;
-
-} */
+.wraper{
+    padding: 20px 40px;
+    margin: 0;
+}
 body{
     font-family: 'Gotham Pro';
 }
@@ -17,16 +16,13 @@ a{
 li{
     list-style: none;
 }
-@media (max-width: 769px) {
+
     .top_menu{
-        padding-top: 25px;
-        margin: 0 auto;
-      
-    
+        margin: 0;
     }
     .container{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
     .link{
@@ -53,9 +49,7 @@ li{
     }
     .Mobile_menu__level1.active{
         display: flex;
-        flex-direction: column;
-        padding-top: 15px;
-        
+        flex-direction: column;   
     }
     #bm{
         display: flex;
@@ -104,93 +98,3 @@ li{
     span{
         padding-left: 10px;
     }
-}
-@media (min-width: 770px) {
-    .top_menu{
-        padding-top: 25px;
-        margin: 0 auto;
-      
-    
-    }
-    .container{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .link{
-        padding: 15px 40px;
-        color: #0F2851;
-        border: 1px solid #0F2851;
-        border-radius: 8.75px;
-        box-shadow: 0 2.7px 0 #0F2851;
-        box-sizing: border-box;
-    }
-    
-    .Mobile_menu__level1{
-        display: none;
-    
-    }
-    .active{
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #fff;
-    }
-    .Mobile_menu__level1.active{
-        display: flex;
-        flex-direction: column;
-        padding-top: 15px;
-        
-    }
-    #bm{
-        display: flex;
-        justify-content: end;
-    }
-    
-    .Mobile_menu__level1_title{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .Mobile_menu__level1_title p{
-        text-align: center;
-        font-size: 18px;
-    }
-    
-    .line{
-        content:"";
-        background: #dad8d8;
-        margin: 30px 0 ;
-        height: 4px;
-    }
-    .spisok a{
-        color: #000000;
-        font-weight:bold;
-    }
-    .spisok li{
-        margin-bottom: 35px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .info{
-        margin-bottom: 20px;
-    }
-    .info-contact-phone, .info-contact-email{
-        display: flex;
-        align-items: center;
-        padding-bottom: 20px;
-    }
-    
-    .centr{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 25%;
-    }
-    span{
-        padding-left: 10px;
-    }
-    
-}
