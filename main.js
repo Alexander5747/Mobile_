@@ -1,12 +1,12 @@
 let top_menu  = document.querySelector('.top_menu'),
 burger_menu = document.querySelector('.burger_menu'),
-Mobile_menu__level1=document.querySelector('.Mobile_menu__level1'),
-Mobile_menu__level2=document.querySelector('.Mobile_menu__level2'),
+Mobile_menu__level1 = document.querySelector('.Mobile_menu__level1'),
+Mobile_menu__level2 = document.querySelector('.Mobile_menu__level2'),
 bm = document.querySelector('#bm'),
-b=document.querySelector('#b'),
-pod_of =document.querySelector('.pod_of'),
-mb2=document.querySelector('#mb2'),
-bm2=document.querySelector('#bm2');
+b = document.querySelector('#b'),
+pod_of = document.querySelector('.pod_of'),
+mb2 = document.querySelector('#mb2'),
+bm2 = document.querySelector('#bm2');
 
 burger_menu.addEventListener('click', function(){
     Mobile_menu__level1.classList.add('active')
