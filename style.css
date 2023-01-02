@@ -107,7 +107,27 @@ li{
 .Mobile_menu__level2{
     display: none;
 }
-.Mobile_menu__level2.active{
+.active2{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background: #fff;
+  }
+.Mobile_menu__level2.active2{
     display: flex;
     flex-direction: column;   
+
+}
+#bm2{
+    display: flex;
+    justify-content: end;
+}
+.Mobile_menu__level2_title2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 97px 0;
 }
